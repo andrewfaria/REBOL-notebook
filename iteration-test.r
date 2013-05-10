@@ -6,4 +6,5 @@ while [duration > -00:00:05] [
   duration: start - now/time/precise
 	i: i + 1
 ]
-print i
+print [i "iterations in 5 seconds"]
+print [i / 60 "per second"]
